@@ -47,8 +47,9 @@
     <img src="Kiwi_Martini.jpg" class="img-thumbnail" alt="Kiwi Martini Juice" width="25%">
       <img src="apple_cider.webp" class="img-thumbnail" alt="apple cider" width="25%">
       <img src="red_wine.jpg" class="img-thumbnail" alt="red wine" width="25%">
-</div>
-
+  </div>
+<div class="container">
+<div class="row">
 <table class="text-centre table-sm table table-striped table-hover thead-dark table-striped table-hover table-sm table-dark table-padding">
   <caption>Drinks Star and fish names</caption>
   <thead class="thead-dark">
@@ -95,20 +96,22 @@
       <td>Icefish</td>
       </tr>
       </table>
-
+</div>
+</div>
       <nav class="navbar navbar-light navbar-brand bg-info">
         <a class="navbar-brand" href="">BootStarp Navbar</a>
       </nav>
 
       <h4>Button</h4>
   
-
-    <button type="button" class="btn">K</button>
-    <button type="button" class="btn">A</button>
-    <button type="button" class="btn">R</button>
-    <button type="button" class="btn">A</button>
-    <button type="button" class="btn">D</button>
-    <button type="button" class="btn">I</button>
+      <div class="container">
+    <button type="button" class="btn btn-secondary">K</button>
+    <button type="button" class="btn btn-secondary">A</button>
+    <button type="button" class="btn btn-secondary">R</button>
+    <button type="button" class="btn btn-secondary">A</button>
+    <button type="button" class="btn btn-secondary">D</button>
+    <button type="button" class="btn btn-secondary">I</button>
+    </div>
       <h3>Button Group</h3>
     <div class="btn-group" role="Success" aria-label="Success Group">
       <button type="button" class="btn btn-success">K</button>
@@ -126,16 +129,33 @@
 </div>
 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
       
-  <div class="dropdown">
+  <div class="dropdown p-2 m-2">
     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">dropdown
     <span class="caret"></span></button>
-    <ul class="dropdown-menu" style="background-color: rgb(205, 129, 43); font-family: sans-serif;">
-    <li><a class="dropdown-item" style="color:rgb(232, 210, 48);" href="basic.html">Basic Page</a></li>
-    <li><a class="dropdown-item" style="color:rgb(232, 210, 48);" href="advanced.html">Advanced Page</a></li>
+    <ul class="dropdown-menu" style="background-color:yellow font-family: sans-serif;">
+    <li><a class="dropdown-item" style="color:orchid;" href="basic.html">Basic Page</a></li>
+    <li><a class="dropdown-item" style="color:orchid;" href="advanced.html">Advanced Page</a></li>
     </ul>
     </div>
-  
 
+  <div class="container">
+    <form>
+      <div class="form-group">
+         <label form="form-label">Email Address</label>
+         <input type="email" class="form-control">
+      <div od="emailHelp" class="form-text">Email will never be shared out</div>
+      </div>
+      <div class="form-group">
+           <label class="form-label">Drink</label>
+           <input type="text" class="form-control" placeholder="Enter your drink">
+      </div>
+      <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="exampleCheck1">Sign up for newsletter</label>
+      </div>
+    </form>
+  
+</div>
 
 </body>
 </html>
